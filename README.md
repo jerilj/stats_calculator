@@ -3,7 +3,7 @@
 # IS601 Team Project 2 - Stats Calculator
 
 ## Team Members
-1. Jeril Jose
+1. Jeril Jose - [Tasks](jeril_tasks.md) 
 2. Sahilpreet Singh 
 
 ## Outline
