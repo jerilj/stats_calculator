@@ -1,6 +1,10 @@
 [![Build Status](https://travis-ci.org/jerilj/stats_calculator.svg?branch=main)](https://travis-ci.org/jerilj/stats_calculator)
 
-# stats_calculator
+# IS601 Team Project 2 - Stats Calculator
+
+## Team Members
+1. Jeril Jose
+2. Sahilpreet Singh 
 
 ## Outline
 1. Calculator Object (Folder: Calculator)
