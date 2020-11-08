@@ -108,6 +108,6 @@
 |7|Mean| Average of list of numbers| Mean of numbers 1,2,3 is (a + b + c )/3 = c| (1 + 2 + 3)/3 = 2|
 |8|Median| Median is the middle of sorted list of numbers| Media of numbers 1,2,3 is 2 | |
 |9|Mode| Number that appears most often| Media of numbers 1,2,2,3 is 2| |
-|10|Variance| Average of the squared differences from the Mean| | |
-|11|Standard Deviation| The Standard Deviation is a measure of how spread out numbers are| | |
-|12|Z-Score| A z-score measures exactly how many standard deviations above or below the mean a data point is| | |
+|10|Variance| Average of the squared differences from the Mean|∑^n i=1 (xi− xˉ)^2 / n| [(1 - 2)2 + (2 - 2)2 + (3 - 2)2] ÷ 3 = 0.667|
+|11|Standard Deviation| The Standard Deviation is a measure of how spread out numbers are|√(x−μ)^2/N | |
+|12|Z-Score| A z-score measures exactly how many standard deviations above or below the mean a data point is| x−μ/σ | |
