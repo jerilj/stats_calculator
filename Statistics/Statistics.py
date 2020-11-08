@@ -12,18 +12,18 @@ class Statistics(Calculator):
             self.result = mean(data)
             return self.result
         else:
-            print("Data contains non-numeric values")
+            raise TypeError("Data contains non-numeric values")
 
     def median(self, data):
         if is_valid(data):
             self.result = median(data)
             return self.result
         else:
-            print("Data contains non-numeric values")
+            raise TypeError("Data contains non-numeric values")
 
     def mode(self, data):
         if is_valid(data):
             self.result = mode(data)
             return self.result
         else:
-            print("Data contains non-numeric values")
+            raise TypeError("Data contains non-numeric values")
