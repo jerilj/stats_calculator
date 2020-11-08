@@ -39,7 +39,11 @@
             3. Mode
             
 
-# Development Tasks
+# Development Tasks 
+
+> **List of development tasks are given below**
+>
+> **Refer to the Math table for formulas and examples**
 
 1. Calculator (Folder: Calculator)
     1. constructor 
