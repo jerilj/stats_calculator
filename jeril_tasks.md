@@ -63,5 +63,13 @@
 5. Travis CI
     1. travis config file (File: .travis.yml)
     2. travis build status 
-6. Dockerfile 
+6. Readme file
+    1. Outline
+    2. Development tasks
+    3. Math table (addition,subtraction,multipliction,division,square,squareroot,mean,median,mode)
+7. Project 
+    1. Created columns
+    2. Added ToDo Tasks 
+    3. Added Pull Requests under Review column
+8. Dockerfile 
 
