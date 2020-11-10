@@ -25,6 +25,7 @@
         2. Subtraction
         3. multiplication
         4. division
+        5. square
         5. square_root
     2. Staistics Class inherited from Calculator Class (Folder: Statistics)
         1. Properties
@@ -36,11 +37,22 @@
             4. variance 
             5. standard deviation
             6. z-score
+            7. Population Sampling Functions
+                1. Simple random sampling
+                2. Confidence Interval For a Sample
+                3. Margin of Error
+                4. Cochran’s Sample Size Formula
+                5. How to Find a Sample Size Given a Confidence Interval and Width (unknown population standard deviation)
         3. Static Methods (Folder: Statistics)
             1. Mean
                 1. Statis method to add numebr in a list (Folder: Calculator)
             2. Median
             3. Mode
+            4. Variance
+            5. Standard Deviation
+            6. Z-score
+            7. Sampling methods
+            8. Methods for z-table and t-table
             
 
 # Development Tasks 
@@ -67,6 +79,14 @@
         4. Variance 
         5. Standard Deviation 
         6. Z-Score 
+        7. Population Sampling Functions
+            1. Simple random sampling
+            2. Confidence Interval For a Sample
+            3. Margin of Error
+            4. Cochran’s Sample Size Formula
+            5. How to Find a Sample Size Given a Confidence Interval and Width (unknown population standard deviation)
+        8. Lookup t-score and z-score
+        9. Validation 
 2. Tests (Folder: test)
     1. Unit Tests
         1. Calculator Tests
@@ -77,6 +97,7 @@
             3. Use python Statistics module to validate results
         3. CSVReader Tests
             1. Test CSVReader
+            2. Test Table Reader
     2. Random Generator Function
         1. Generate a random number without a seed between a range of two numbers - Both Integer and Decimal
         2. Generate a random number with a seed between a range of two numbers - Both Integer and Decimal
@@ -85,10 +106,12 @@
         5. Set a seed and randomly.select the same value from a list
         6. Select N number of items from a list without a seed
         7. Select N number of items from a list with a seed
-    
 3. CSV Reader (Folder: CSVReader) 
+    1. CSVReader for Calculator test data
+    2. Table Reader for z-table and t-table
 4. CSV files (Folder: csv)
     1. CSV files for unit testing addition,subrtaction,multiplication,division,square,square root
+    2. CSV files for z-table and t-table
 5. Travis CI
     1. travis config file
     2. travis build status
