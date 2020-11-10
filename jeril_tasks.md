@@ -26,6 +26,14 @@
             1. mean 
             2. median
             3. mode
+            4. Population Sampling Functions
+                1. Simple random sampling
+                2. Confidence Interval For a Sample
+                3. Margin of Error
+                4. Cochran’s Sample Size Formula
+                5. How to Find a Sample Size Given a Confidence Interval and Width (unknown population standard deviation)
+        8. Lookup t-score and z-score
+        9. Validation 
         3. Static Methods (Folder: Statistics)
             1. Mean (File: Mean.py)
                 1. Statis method to add numebr in a list (Folder: Calculator) 
@@ -39,8 +47,9 @@
             1. Test Statistics methods
             2. Use data generated from random generator functions
             3. Use python 'Statistics' module to validate results
-        3. CSVReader Tests (File:test_cavreader.py)
-            1. Test CSVReader
+        3. CSVReader Tests 
+            1. Test CSVReader (File:test_csvreader.py)
+            2. Test TableReader (File:test_tablereader.py)
     2. Random Generator Function (Folder: test, File:randoms.py)
         1. Generate a random number without a seed between a range of two numbers - Both Integer and Decimal
         2. Generate a random number with a seed between a range of two numbers - Both Integer and Decimal
@@ -50,7 +59,9 @@
         6. Select N number of items from a list without a seed
         7. Select N number of items from a list with a seed
     
-3. CSV Reader (Folder: CSVReader, File: CSVReader.py) 
+3. CSV Reader (Folder: CSVReader) 
+    1. CSVReader for Calculator test data(File: CSVReader.py)
+    2. Table Reader for z-table and t-table(File: TableReader.py)
 4. CSV files (Folder: csv)
     1. CSV files for unit testing addition,subrtaction,multiplication,division,square,square root
       1. Unit Test Addition.csv
@@ -59,6 +70,8 @@
       4. Unit Test Square Root.csv
       5. Unit Test Square.csv
       6. Unit Test Subtraction.csv
+      7. z-table.csv
+      8. t-table.csv
       
 5. Travis CI
     1. travis config file (File: .travis.yml)
