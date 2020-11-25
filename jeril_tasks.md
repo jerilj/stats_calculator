@@ -26,19 +26,29 @@
             1. mean 
             2. median
             3. mode
-            4. Population Sampling Functions
+            4. variance
+            5. sample variance
+            6. standard deviation
+            7. sample standard variation
+            8. z-score list
+            9. z-score
+            10. Population Sampling Functions
                 1. Simple random sampling
                 2. Confidence Interval For a Sample
                 3. Margin of Error
                 4. Cochran’s Sample Size Formula
                 5. How to Find a Sample Size Given a Confidence Interval and Width (unknown population standard deviation)
-        8. Lookup t-score and z-score
-        9. Validation 
+        8. Lookup t-score and z-score(Scores.py)
+        9. Validation (Validation.py)
         3. Static Methods (Folder: Statistics)
             1. Mean (File: Mean.py)
                 1. Statis method to add numebr in a list (Folder: Calculator) 
             2. Median (File: Median.py)
             3. Mode (File: Mode.py)
+            4. Variance
+            6. Standard deviation
+            8. Z-score
+            
  2. Tests (Folder: test)
     1. Unit Tests
         1. Calculator Tests (File:test_calculator.py)
